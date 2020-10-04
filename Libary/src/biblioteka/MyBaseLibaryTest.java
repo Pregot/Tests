@@ -8,7 +8,7 @@ public class MyBaseLibaryTest extends BaseLibraryTest {
 	@Override
 	protected Library getLibrary() {
 		MyLibrary librarys = new MyLibrary();
-		return librarys;
+		return library
 	}
 
 	
