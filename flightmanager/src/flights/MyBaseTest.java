@@ -7,7 +7,7 @@ public class MyBaseTest extends BaseTest {
 
 	@Override
 	protected FlightManager createFlightManager() {
-		FlightManager pav = new MyFlightManager();
+		FlightManager pav =  MyFlightManager();
 		return pav;
 	}
 
