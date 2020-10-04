@@ -39,7 +39,8 @@ public class PostStampps implements Philatelist {
 
 	@Override
 	public int getNumberOfPostStampsInCollection() {
-		return this.stamps.size();
+int b = this.stamps.size();
+		return b;
 	}
 
 	@Override
