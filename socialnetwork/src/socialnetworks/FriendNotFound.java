@@ -2,7 +2,7 @@ package socialnetworks;
 
 import lt.infobalt.itakademija.javalang.exam.socialnetwork.FriendNotFoundException;
 
-public class FriendNotFound extends FriendNotFoundException {
+public  FriendNotFound extends FriendNotFoundException {
 
 	public FriendNotFound(String firstName, String lastName) {
 		super(firstName, lastName);
